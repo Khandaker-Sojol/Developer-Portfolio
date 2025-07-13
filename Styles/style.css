@@ -152,6 +152,9 @@ nav ul li a {
     margin-top: 20px;
     
 }
+.expert h3{
+    margin: 20px 0;
+}
 .expert p{
     font-size: 0.9rem;
     margin: 15px 0;
@@ -162,4 +165,30 @@ nav ul li a {
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+/* Resume */
+.resume{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.resume h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 30px 0;
+}
+.resume-text{
+    display: flex;
+    gap: 100px;
+    color: #474747;
+}
+.resume-text p{
+    padding: 20px 0;
+}
+.education h1{
+    text-align: start;
+}
+
+.my-ex-h h1{
+    text-align: start;
 }
