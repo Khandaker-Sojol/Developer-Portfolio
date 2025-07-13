@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+p{
+    color: #606060;
+}
 body{
     max-width:1600px;
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
+    background-color: #F3F3F3;
 }
 
 /*Header Css */
@@ -90,4 +95,71 @@ nav ul li a {
     background-color:#FFF8F3;
     border:1px solid #FD6E0A;
     color: #FD6E0A;
+}
+
+/* About-section Css */
+.about{
+    width: 1140px;
+    background-color:#FFF8F3 ;
+    margin: 100px auto;
+    padding: 60px;
+    border-radius: 10px;
+}
+.about-text{
+    text-align: center;
+}
+.about-text h1{
+    font-size: 2rem;
+    padding: 20px;
+}
+.about-text p{
+    color: #757575;
+}
+.info span
+{
+    color:#757575; ;
+}
+
+.info p{
+    color: black;
+    font-size: 1.2rem;
+}
+.info{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+
+/* Experience section Css */
+.experience{
+    width: 1240px;
+    margin: 0 auto;
+}
+.experience-text{
+    text-align: center;
+    padding:0 50px;
+}
+.experience-text h1{
+    font-size: 2rem;
+    margin: 30px;
+}
+.expert{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    
+}
+.expert p{
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
+.expert-item{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
