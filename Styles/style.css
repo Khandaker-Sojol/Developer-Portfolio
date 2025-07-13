@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width:1600px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*Header Css */
+header{
+    padding: 40px;
+    background: #FFF8F3;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+}
+nav h1{
+    font-size: 3rem;
+
+}
+nav h1 span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.primary-btn{
+    color: white;
+    padding: 16px 20px;
+    background-color:#FD6E0A ;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #474747;
+}
+
+/* banner css */
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-text{
+    font-size: 2rem;
+    width: 585px;
+   
+}
+.banner-text h1{
+    margin: 10px 0;
+}
+.banner-text p{
+    color: #606060;
+    font-size: 1.2rem;
+    margin:15px 0;
+}
+.banner-img{
+    width: 31%;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.hardy-img{
+    position: absolute;
+    width: 550px;
+    z-index: 1;
+    margin-top: 18px;
+}
+.hCircle-bg{
+    position: relative;
+    top:138px;
+    right: 220px;
+}
+.btn-contact{
+    background-color:#FFF8F3;
+    border:1px solid #FD6E0A;
+    color: #FD6E0A;
+}
