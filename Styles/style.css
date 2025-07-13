@@ -188,7 +188,52 @@ nav ul li a {
 .education h1{
     text-align: start;
 }
+.resume h2{
+    margin: 10px 0;
+}
 
 .my-ex-h h1{
     text-align: start;
+}
+.btn{
+    text-align: center;
+}
+
+/* footer css */
+.footer{
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3 ;
+    padding: 20px 100px;
+    margin-top: 40px;
+   max-width: 1600px;
+}
+.footer h1{
+    text-align: start;
+    padding: 20px 0;
+    
+}
+.footer p{
+    margin-bottom: 20px;
+}
+.footer-text{
+    width: 40%;
+    margin:100px;
+}
+.form{
+    width: 60%;
+}
+.form input{
+    background-color: white;
+    padding: 20px;
+    width:70%;
+    border: 0;
+    margin: 10px 0;
+}
+.form textarea{
+    display: block;
+    width: 70%;
+    border: 0;
+    padding: 20px;
+    margin: 20px 0;
 }
